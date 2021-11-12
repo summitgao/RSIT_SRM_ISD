@@ -26,3 +26,17 @@ class ImageDataset(Dataset):
 
     def __len__(self):
         return max(len(self.files_A), len(self.files_B))
+    
+    '''
+Build your datasets by setting up the following directory structure:
+
+    .
+    ├── datasets                   
+    |   ├── <yourdataset>         
+    |   |   ├── train              # Train dataset
+    |   |   |   ├── A              # Contains domain A images
+    |   |   |   └── B              # Contains domain B images
+    |   |   └── test               # Test dataset
+    |   |   |   ├── A              # Contains domain A images
+    |   |   |   └── B              # Contains domain B images
+'''
