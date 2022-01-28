@@ -1,6 +1,6 @@
-# PyTorch implementation of  [**Remote sensing image translation via style-based recalibration module and improved style discriminator**](https://arxiv.org/pdf/2103.15502.pdf). 
+## PyTorch implementation of  [**Remote sensing image translation via style-based recalibration module and improved style discriminator**](https://arxiv.org/pdf/2103.15502.pdf). 
 
-## in *IEEE Geoscience and Remote Sensing Letters*, 2021.
+## in *IEEE Geoscience and Remote Sensing Letters*, 2022.
 
 by Tiange Zhang, Feng Gao, Junyu Dong, Qian Du
 
@@ -18,7 +18,4 @@ Existing remote sensing change detection methods are heavily affected by seasona
 ![](https://raw.githubusercontent.com/summitgao/RSIT_SRM_ISD/main/framework.jpg)
 
 The architecture of the basic components from our image-to-image translation network. (a) represents the Generator, which takes an image as the input and outputs the translated image. (b) represents the new Style Discriminator, which is designed to figure out whether the input is a real image or a translated one. It outputs a scalar of [0, 1] as the decision as well as a style vector which encode the style of the input to compute the style loss between real and translated images. (c) illustrates the SRMConvBlock utilized in both Generator and Style Discriminator.
-
-
-
 
