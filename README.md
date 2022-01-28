@@ -1,6 +1,6 @@
 ### PyTorch implementation of  [**Remote sensing image translation via style-based recalibration module and improved style discriminator**](https://arxiv.org/pdf/2103.15502.pdf). 
 
-### in *IEEE Geoscience and Remote Sensing Letters*, 2022.
+### in *IEEE Geoscience and Remote Sensing Letters*, vol. 19, pp. 1-5, 2022, Art no. 8009805, doi: 10.1109/LGRS.2021.3068558.
 
 by Tiange Zhang, Feng Gao, Junyu Dong, Qian Du
 
